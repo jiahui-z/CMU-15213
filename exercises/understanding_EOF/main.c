@@ -10,6 +10,10 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 int main()
 {
+    int  x = EOF;
+    char y = EOF;
+    char z = -1;
+    printf("%d %d %d %c %c %c \n", x, y, z, x, y, z);
     char a = EOF;
     char b = 255;
     char c = 127;
